@@ -52,7 +52,7 @@ Now, Jenkins will automatically trigger the CI pipeline each time changes are pu
 
 ### 3. Configure GitHub Webhook for Multibranch Pipeline
 1. In GitHub, go to your repository **Settings** > **Webhooks** and click **Add webhook**.
-2. In the **Payload URL**, enter `http://<jenkins-ip>:8080/multibranch-webhook-trigger/invoke?token=githubtoken`.
+2. In the **Payload URL**, enter `http://<jenkins-ip>:8080/multibranch-webhook-trigger/invoke?token=gittoken`.
 3. Save the webhook.
 
 With this setup, Jenkins will trigger the multibranch pipeline for any code changes pushed to GitHub.
